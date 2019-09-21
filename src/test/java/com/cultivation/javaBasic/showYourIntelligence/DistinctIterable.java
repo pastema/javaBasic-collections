@@ -40,6 +40,7 @@ class DistinctIterator<E> implements Iterator<E> {
 
     @Override
     public E next() {
+        System.out.println("asdasdsadsa");
         throw new NotImplementedException();
     }
     // --end->

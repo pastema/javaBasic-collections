@@ -2,6 +2,8 @@ package com.cultivation.javaBasic.showYourIntelligence;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
+import java.util.Stack;
+
 @SuppressWarnings({"unused", "FieldCanBeLocal"})
 public class MyStack {
     private int[] storage;
@@ -26,6 +28,8 @@ public class MyStack {
 
         // TODO: Please push the value into the storage here.
         // <--start
+        Stack<Integer> STACK = new Stack<Integer>();
+        STACK.push(value);
         throw new NotImplementedException();
         // --end-->
     }

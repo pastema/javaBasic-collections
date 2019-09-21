@@ -29,6 +29,7 @@ class SequenceIterator implements Iterator<Integer> {
     SequenceIterator(Integer start, Integer end) {
         // TODO: please implements the following code to pass the test
         // <--start
+
         throw new NotImplementedException();
         // --end-->
     }

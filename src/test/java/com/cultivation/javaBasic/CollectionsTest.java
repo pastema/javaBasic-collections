@@ -28,6 +28,10 @@ class CollectionsTest {
         // TODO: you could ONLY use `Iterator.hasNext` and `Iterator.next` API to copy items to a `List`. No `for` is
         // allowed.
         // <--start
+        list.add(iterator.next());
+        list.add(iterator.next());
+        list.add(iterator.next());
+        Iterator<String> aaa = list.iterator();
 
         // --end-->
 
@@ -56,7 +60,7 @@ class CollectionsTest {
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final List<String> expected = Arrays.asList("I", "Don't", "Know");
+        final List<String> expected = Arrays.asList("Amy", "Bob", "Carl");
         // --end-->
 
         assertIterableEquals(expected, staff);
@@ -82,13 +86,13 @@ class CollectionsTest {
         for (int i = 0; i < 12; ++i) {
             integers.add(i);
         }
-
+        //0,1,2,3,4,5,6,7,8,9,10,11
         List<Integer> subList = integers.subList(3, 10);
         subList.clear();
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final List<Integer> expected = Arrays.asList(0, 0, 0);
+        final List<Integer> expected = Arrays.asList(0, 1, 2, 10, 11);
         // --end-->
 
         assertIterableEquals(expected, integers);

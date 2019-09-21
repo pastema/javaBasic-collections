@@ -14,11 +14,42 @@ Each repository contains a gradle java project with a number of unit tests. The 
 * Answer the following 4 questions after the test is passed.
 
 The 4 questions are:
-
+##Collection Test
 1. What is the knowledge point of the test? Where is the offical document to the knowledge point?
+	- The use of iterator.
 1. Why the test failed at first?
+	- Because I was not using the correct method.
 1. Why you corrected the test that way?
+	- I just simulate the method one by one until I understood it.
 1. Do you have further questions on this knowledge point?
+	- None.
+##DistinctIterable
+1. What is the knowledge point of the test? Where is the offical document to the knowledge point?
+	- Get Next and HasNext of iterator.
+1. Why the test failed at first?
+	- There was an exception and I am not returning the correct output.
+1. Why you corrected the test that way?
+	- I did not completed this test.
+1. Do you have further questions on this knowledge point?
+	- None.
+##MyStack
+1. What is the knowledge point of the test? Where is the offical document to the knowledge point?
+	- Adding and Removing from Array.
+1. Why the test failed at first?
+	- I did not understand the required output.
+1. Why you corrected the test that way?
+	- I did not completed this test.
+1. Do you have further questions on this knowledge point?
+	- None.
+##Sequence
+1. What is the knowledge point of the test? Where is the offical document to the knowledge point?
+	- The use of Next and HasNext.
+1. Why the test failed at first?
+	- I did not understand the required output.
+1. Why you corrected the test that way?
+	- I did not completed this test.
+1. Do you have further questions on this knowledge point?
+	- None.
 
 ## Example
 
